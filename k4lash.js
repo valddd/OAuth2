@@ -10,6 +10,6 @@ module.exports = {
   support: "", //support du bot
   wehbook: process.env.webhook, //wehbook de logs
   owners: ["703336732447342612"], //owner du bot ( pour plusieur owner : ["owner 1", "owner 2"])
-  authLink: "https://discord.com/api/oauth2/authorize?client_id=1048301974870835291&redirect_uri=&response_type=code&scope=identify%20guilds.join", //lien auth du bot
+  authLink: "https://discord.com/api/oauth2/authorize?client_id=1048301974870835291&redirect_uri=https://OAuth2.valdd.repl.co&response_type=code&scope=identify%20guilds.join", //lien auth du bot
 
 }
